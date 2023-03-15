@@ -1,5 +1,5 @@
 ---
-opis: Dostęp do wersji beta wtyczki.
+description: Dostęp do wersji beta wtyczki.
 ---
 
 # 🧪 Testy beta
