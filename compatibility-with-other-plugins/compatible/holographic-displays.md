@@ -1,27 +1,27 @@
 # Holographic Displays
 
-## How to use emojis in hologram
+# Jak korzystać w emoji w hologramach
 
-* Download [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
-* Download [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
-* Download the [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
+* Pobierz [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
+* Pobierz [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+* Pobierz [HolographicExtension addon](https://www.spigotmc.org/resources/holographicextension.18461/)
 
-Now you can use [font\_images ](../../plugin-usage/adding-content/font-images/)(**emojis**) inside holograms texts and everywhere in all plugins which support **PlaceholderAPI**, in this case **Holographic Displays**.\
-This is the code: `%img_NAME%` instead of NAME write the font\_image name.\
-For example: `%img_smile%`
+Teraz możesz używać [fontów ](../../plugin-usage/adding-content/font-images/)(**emojis**) wewnątrz tekstów hologramów i wszędzie we wszystkich wtyczkach, które wspierają **PlaceholderAPI**, w tym przypadku **Holographic Displays**.
+Oto kod: `%img_NAME%` zamiast NAME wpisz nazwę fontu, który ma być obrazem.
+Na przykład: `%img_smile%`.
 
-To create an hologram you can use these commands for example:
+Aby stworzyć hologram możesz użyć np. tych poleceń:
 
 `/holo create test_itemsadder Hello! %img_smile%`
 
 ![](<../../.gitbook/assets/image (20).png>)
 
-## How to add a floating custom item?
+## Jak dodać pływający element niestandardowy?
 
-* run `/iacustommodeldata <item>` (for example `/iacustommodeldata ruby`)
-* copy the `CustomModelData`, for example `10000`
-* create a new hologram, for example: `/hd create holo_icon Hello!`
-* add the floating item to the hologram by specifying the **vanilla type** and the **CustomModelData**. Example:  `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
+* uruchom `/iacustommodeldata <item>` (na przykład `/iacustommodeldata ruby`)
+* skopiuj `CustomModelData`, na przykład `10000`
+* utwórz nowy hologram, na przykład: `/hd create holo_icon Hello!`.
+* dodaj pływający element do hologramu, określając **typ holo** i **CustomModelData**. Przykład: `/hd addline holo_icon ICON: IRON_INGOT {CustomModelData: 10000}`
 
 ![](<../../.gitbook/assets/image_(124).png>)
 
