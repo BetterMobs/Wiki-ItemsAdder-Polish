@@ -1,51 +1,51 @@
 ---
-description: Emotes have bugged textures (1.17+)
+description: Emoty mają zbugowane tekstury (1.17+)
 ---
 
 # 💃 Broken emote textures
 
-## Shader Mod issues
+## Problemy z modami shaderowymi
 
-Mods that allow the usage of custom shaders will break emotes due to them overriding/replacing the vanilla Shader which ItemsAdder uses for the Emotes feature.
+Mody, które pozwalają na używanie niestandardowych shaderów będą łamać emotki z powodu ich nadpisywania/zastępowania waniliowego shadera, którego ItemsAdder używa do funkcji Emotes.
 
-The only way to _"fix"_ this is by disabling the shaders themself or removing the shader mod in question.
+Jedynym sposobem na _"naprawienie"_ tego jest wyłączenie samych shaderów lub usunięcie danego moda.
 
 {% tabs %}
-{% tab title="With Shaders on (Bug)" %}
+{% tab title="Z włączonymi shaderami (błąd)" %}
 ![shader bug](<../.gitbook/assets/image (51) (2) (1).png>)
 {% endtab %}
 
-{% tab title="With Shaders off (No Bug)" %}
-![no shader bug](<../.gitbook/assets/image (64).png>)
+{% tab title="Z wyłączonymi shaderami (bez błędu)" %}
+![brak błędu z shaderami](<../.gitbook/assets/image (64).png>)
 {% endtab %}
 {% endtabs %}
 
-Known shader mods that cause issues:
+Znane mody shaderów, które powodują problemy:
 
 ### Optifine
 
-Related issue: [https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
+Powiązany problem: [https://github.com/sp614x/optifine/issues/6391](https://github.com/sp614x/optifine/issues/6391)
 
 ### IrisShaders
 
 Related issue: [https://github.com/IrisShaders/Iris/issues/1042](https://github.com/IrisShaders/Iris/issues/1042)
 
-## Mods that change the player skins
+## Mody zmieniające skórki graczy
 
-A mod may change the default player model/skin and can therefore be affected by ItemsAdder's shader manipulations, or vice-versa.
+Mod może zmienić domyślny model/skórę gracza i dlatego może być dotknięty przez manipulacje shaderów ItemsAddera, lub odwrotnie.
 
-Known Mods that cause issues:
+Znane mody, które powodują problemy:
 
 ### 3DSkinLayers
 
-The mod alters the outer skin layer to make them appear in 3D, which alters the player model itself.
+Mod zmienia zewnętrzną warstwę skóry, aby wyglądała w 3D, co zmienia sam model gracza.
 
-A possible fix is to disable `3D Skulls` and `3D Skull Items` in the mod's settings.\
-There is currently no workaround for using 3D layers in Emote animations.
+Możliwą poprawką jest wyłączenie `3D Skulls` i `3D Skull Items` w ustawieniach moda.
+Obecnie nie ma obejścia dla używania warstw 3D w animacjach Emote.
 
-Additional information can be found in the related issue: [https://github.com/tr7zw/3d-Skin-Layers/issues/45](https://github.com/tr7zw/3d-Skin-Layers/issues/45)
+Dodatkowe informacje można znaleźć w powiązanym problemie: [https://github.com/tr7zw/3d-Skin-Layers/issues/45](https://github.com/tr7zw/3d-Skin-Layers/issues/45)
 
-### Customizable Player Models
+### Dostosowywalne modele graczy
 
-This mod allows the complete customization of the player model including replacing parts of it or the model as a whole.\
-Due to this will Emotes not display properly in ItemsAdder and there is currently no fix available outside of not using the mod or not using the Emote animations.
+Ten mod pozwala na pełną personalizację modelu gracza, włączając w to wymianę jego części lub całego modelu.
+Z tego powodu Emoty nie będą wyświetlane poprawnie w ItemsAdder i nie ma obecnie żadnej dostępnej poprawki poza nieużywaniem moda lub nieużywaniem animacji Emote.
