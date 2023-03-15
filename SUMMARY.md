@@ -11,7 +11,7 @@
   * [👁 Widzę ostre tekstury w oddali!](faq/i-see-crisp-textures-far-away.md)
   * [💧 Pasek Pranienia/Many](faq/fill-thirst-mana-bar.md)
   * [👀 Nie widzę Emoji, GUI, HUD itd.](faq/i-cant-see-emoji-guis-huds-etc..md)
-  * [☐ znaki](faq/characters.md)
+  * [☐ Znaki](faq/characters.md)
   * [Problemy książki przepisów](faq/recipes-book-problems.md)
   * [Glitche tekstór postawionych główek](faq/placed-heads-texture-glitched.md)
   * [🗑 Usuwanie standardowej zawartości](faq/removing-default-stuff/README.md)
