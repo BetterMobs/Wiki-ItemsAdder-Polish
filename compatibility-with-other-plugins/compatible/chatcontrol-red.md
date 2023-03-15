@@ -1,21 +1,21 @@
 # ChatControl-Red
 
-[Download here](https://www.mc-market.org/resources/18217/)
+[Pobierz tutaj](https://www.mc-market.org/resources/18217/)
 
-ItemsAdder Emojis compatibility:\
-More info here: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610](https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610)
+Kompatybilność z Emojis:\
+Więcej informacji tutaj: [https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610](https://github.com/kangarko/ChatControl-Red/issues/853#issuecomment-818497610)
 
-## Adding custom channel prefix in chat
+## Dodawanie własnego prefiksu kanału w czacie
 
-If you want to create a graphical prefix for your channels and show it in chat you have to follow this tutorial.
+Jeśli chcesz stworzyć graficzny prefiks dla swoich kanałów i pokazać go na czacie, musisz postępować zgodnie z tym tutorialem.
 
-![An example that shows the ARCADE prefix for the Arcade channel](<../../.gitbook/assets/image_(94).png>)
+![Przykład pokazujący prefiks ARCADE dla kanału Arcade](<../../.gitbook/assets/image_(94).png>)
 
-You just have to set this in your format configuration, (for example in the `format/arcade.yml` file of ChatControl Red):
+Wystarczy ustawić to w konfiguracji formatu, (na przykład w pliku `format/arcade.yml` programu ChatControl Red):
 
 ```yaml
-  prefix:
+  prefx:
     Message: ':arcade:'
 ```
 
-Obviously you have to use your own [font\_image ](../../plugin-usage/adding-content/font-images/)name instead of `arcade`, this is just an example.
+Oczywiście trzeba użyć własnej [font\_image](../../plugin-usage/adding-content/font-images/)nazwy zamiast `arcade`, to tylko przykład.
