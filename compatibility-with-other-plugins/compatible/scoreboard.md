@@ -1,63 +1,63 @@
 # Scoreboard-revision
 
-## ​[Download here](https://www.spigotmc.org/resources/scoreboard.14754/)​ <a href="#download-here" id="download-here"></a>
+## [Pobierz tutaj](https://www.spigotmc.org/resources/scoreboard.14754/) <a href="#download-here" id="download-here"></a>.
 
 {% hint style="warning" %}
-Seems the plugin was removed from SpigotMC.org for some reason.\
-(I'm not its author).
+Wygląda na to, że plugin został usunięty z jakiegoś powodu ze SpigotMC.org.
+( Nie jestem jego autorem).
 
 [Source code](https://github.com/RienBijl/Scoreboard-revision)
 {% endhint %}
 
-## Font images
+## Obrazy czcionek
 
-You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emojis and symbols) in the **scoreboard**.
+Możesz użyć [font_images ](../../plugin-usage/adding-content/font-images/)(emojis i symbole) w **scoreboard**.
 
-### Example
+### Przykład.
 
-`%img_smile%` will show like that:
+`%img_smile%` pokaże się tak:
 
 ![](../../.gitbook/assets/image\_\(95\).png)
 
-## Hide the scoreboard background
+## Ukryj tło tablicy wyników
 
-(works with every scoreboard plugin)
+( działa z każdym pluginem scoreboardowym)
 
-### Before
+### Przed
 
 ![](../../.gitbook/assets/image\_\(97\).png)
 
-### After
+### Po
 
 ![](../../.gitbook/assets/image\_\(96\).png)
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.\
-You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark>\*\* \*\* of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
+Za pomocą ItemsAdder możesz ukryć tło tablicy wyników, wystarczy użyć tej sztuczki.\N
+Wystarczy dodać `%img_offset_-500%` przed <mark style="color:yellow;">**każdą linią**</mark> swojej konfiguracji tablicy wyników, <mark style="color:yellow;">nawet w pustych liniach!</mark>.
 
 ```yaml
-#  ____  ____  ____  ____  _____ ____  ____  ____  ____  ____
-# / ___\/   _\/  _ \/  __\/  __//  _ \/  _ \/  _ \/  __\/  _ \
-# |    \|  /  | / \||  \/||  \  | | //| / \|| / \||  \/|| | \|
-# \___ ||  \_ | \_/||    /|  /_ | |_\\| \_/|| |-|||    /| |_/|
+# ____ ____ ____ ____ _____ ____ ____ ____ ____ ____
+# / ___\/ _\/ _ \/ __\/ __// _ \/ _ \/ _ \/ __\/ _ \
+# | \| / | / \|| \/|| \ | | //| / \|| / \|| \/|| | \|
+# \___ || \_ | \_/|| /| /_ | |_\\| \_/|| |-||| /| |_/|
 # \____/\____/\____/\_/\_\\____\\____/\____/\_/ \|\_/\_\\____/
 #
 # Scoreboard-r by Rien Bijl
 # rep: github : RienBijl/Scoreboard-revision
 # v: R4 1.1 RELEASE
 
-# Do not edit! The plugin uses this to determine if the configuration is suitable
+# Nie edytuj! Plugin używa tego do określenia czy konfiguracja jest odpowiednia
 config_version: 1
 
 settings:
-  # The driver is the Scoreboard implementation used to display the user
-  # Old drivers will from now on remain supported so that switching back to
-  # an older (perhaps more stable) version is easy.
+  # Sterownik to implementacja tablicy wyników używana do wyświetlania użytkownika
+  # Stare sterowniki będą od teraz wspierane, tak że powrót do
+  # starszą (być może bardziej stabilną) wersję jest łatwe.
   driver: SCOREBOARD_DRIVER_V1
-  # Should we check updates? Caution! Disabling this is not recommended
-  # you might miss awesome updates *wink*
+  # Czy powinniśmy sprawdzić aktualizacje? Uwaga! Wyłączenie tego nie jest zalecane
+  # możesz przegapić świetne aktualizacje *wink*
   check-updates: true
 
-# In what worlds should we disable scoreboard?
+# W jakich światach powinniśmy wyłączyć tablicę wyników?
 disabled-worlds:
   - 'non_existant_world'
 
