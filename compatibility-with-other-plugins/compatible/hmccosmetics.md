@@ -3,25 +3,25 @@
 ## HMCCosmetics
 
 {% hint style="danger" %}
-I'm not the author of this plugin and I don't guarantee its future updates nor if it still works with ItemsAdder.
+Nie jestem autorem tej wtyczki i nie gwarantuję jej przyszłych aktualizacji ani czy nadal działa z ItemsAdder.
 
-The official cosmetics solution for ItemsAdder is here instead: [CosmeticsCore](cosmeticscore.md).
+Oficjalne rozwiązanie kosmetyczne dla ItemsAdder jest tutaj zamiast tego: [CosmeticsCore](cosmeticscore.md).
 {% endhint %}
 
 ## [Download Here](https://www.spigotmc.org/resources/hmccosmetics.100107/)
 
 ![](../../.gitbook/assets/HMCCOSMETICS-1.png)
 
-### How to Install
+### Jak zainstalować
 
-* Add HMCCosmetics.jar to your server plugins folder
-* Drag the "data" folder in ItemsAdder-Config.zip into the ItemsAdder plugin folder.
-* Drag the "HMCCosmetics" folder into your plugins folder.
-* Start server
-* After your server is started, change the prefix in messages.yml to "%img\_colorful%"
+* Dodaj HMCCosmetics.jar do folderu pluginów twojego serwera
+* Przeciągnij folder "data" w ItemsAdder-Config.zip do folderu pluginów ItemsAdder.
+* Przeciągnij folder "HMCCosmetics" do folderu pluginów.
+* Uruchom serwer
+* Po uruchomieniu twojego serwera zmień prefiks w messages.yml na "%img\u0026apos;".
 
-And.. you're done! You have successfully installed HMCCosmetics with the ItemsAdder addon.
+I... skończyłeś! Pomyślnie zainstalowałeś HMCCosmetics z pluginem ItemsAdder.
 
-### ItemsAdder material type
+### Typ materiału ItemsAdder
 
-Using an ItemsAdder item for your cosmetic is very simple. `material: itemsadder:<my_namespace>:<my_item>`
+Użycie elementu ItemsAdder do swojego kosmetyku jest bardzo proste. `material: itemsadder:<my_namespace>:<my_item>`.
