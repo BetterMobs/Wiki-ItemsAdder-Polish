@@ -1,2 +1,2 @@
-# ✏ Contribute
+# ✏ Przyłącz się do nas
 
