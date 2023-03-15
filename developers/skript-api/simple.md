@@ -1,8 +1,8 @@
 # Simple
 
-## Examples
+## Przykłady
 
-### Command: give custom item
+### Komenda: give custom item
 
 ```yaml
 command /iaskriptgetitem <text> [<number=1>]:
@@ -16,7 +16,7 @@ command /iaskriptgetitem <text> [<number=1>]:
       message "Obtained custom item %arg 1%"
 ```
 
-### Command: is holding custom item
+### Komenda: posiada własny przedmiot
 
 ```yaml
 command /iaskriptiscustomitem:
@@ -27,7 +27,7 @@ command /iaskriptiscustomitem:
       message "it's not a custom item"
 ```
 
-### FontImage (emojis, GUIs etc.)
+### FontImage (emojis, GUI itp.)
 
 ```yaml
 command /emojitest:
