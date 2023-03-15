@@ -1,9 +1,9 @@
 # BossShop
 
-Download BossShop [here](https://www.spigotmc.org/resources/bossshoppro-the-most-powerful-chest-gui-shop-menu-plugin.222/)\
-Download the addon [here](https://www.spigotmc.org/resources/itemsadder-bossshop-integration.72396/)
+Pobierz BossShop [tutaj](https://www.spigotmc.org/resources/bossshoppro-the-most-powerful-chest-gui-shop-menu-plugin.222/)\N
+Pobierz addon [tutaj](https://www.spigotmc.org/resources/itemsadder-bossshop-integration.72396/)
 
 {% hint style="warning" %}
-**I'm not the developer of this compatibility addon, please don't contact me for support.** \
-**Contact the original author, thanks!**
+**Nie jestem twórcą tego dodatku kompatybilności, proszę nie kontaktować się ze mną w celu uzyskania wsparcia **.
+**Skontaktuj się z oryginalnym autorem, dzięki!
 {% endhint %}
