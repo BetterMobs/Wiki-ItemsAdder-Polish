@@ -13,13 +13,13 @@ Możesz zmienić ikony GUI i użyć ikon ItemsAdder, aby to osiągnąć:
 {% tabs %}
 {% tab title="config.yml" %}
 ```yaml
-  ikony:
+  icons:
     money-indicator: coin
-    następna strona: icon_right_blue
-    poprzednia strona: icon_left_blue
+    next-page: icon_right_blue
+    previous-page: icon_left_blue
     page-indicator: BLACK_STAINED_GLASS_PANE
-    depozyt-exp: icon_ender_chest
-    zablokowany: icon_lock
+    deposit-exp: icon_ender_chest
+    locked: icon_lock
     deposit-money: icon_arrow_chest
 ```
 {% endtab %}
