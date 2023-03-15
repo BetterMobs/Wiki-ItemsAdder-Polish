@@ -2,7 +2,7 @@
 description: Emoty mają zbugowane tekstury (1.17+)
 ---
 
-# 💃 Broken emote textures
+# 💃 Zepsute tekstury emotów
 
 ## Problemy z modami shaderowymi
 
