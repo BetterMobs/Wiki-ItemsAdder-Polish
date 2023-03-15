@@ -1,8 +1,8 @@
 # SkinsRestorer
 
-## [Download here](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 
-# How to fix resourcepack not applying on join
+# Jak naprawić brak zastosowania resourcepack na połączeniu
 
 ### Krok 1
 
