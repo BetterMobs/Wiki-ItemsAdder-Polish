@@ -1,31 +1,31 @@
 # 📓 Denizen API
 
 {% hint style="warning" %}
-Needs ItemsAdder 3.2.4+
+Wymaga ItemsAdder 3.2.4+
 {% endhint %}
 
-## Download latest build
+## Pobierz najnowszy build
 
 {% embed url="https://ci.citizensnpcs.co/job/Denizen/" %}
 
-## Features
+## Funkcje
 
-<pre class="language-yaml"><code class="lang-yaml"><strong># Check if item is a custom item
+<pre class="language-yaml"><code class="lang-yaml"><strong># Sprawdza czy item jest customowy
 </strong><strong>player.item_in_hand.is_ia_item
-</strong># Check if item is a custom block
+</strong># Sprawdza, czy przedmiot jest niestandardowym blokiem
 player.item_in_hand.is_ia_block
-# Get item namespaced id
+# Zdobądź identyfikator elementu
 player.item_in_hand.ia_namespaced_id
 
-# Place a custom block.
-# Syntax set_custom_block [&#x3C;location>|...] [&#x3C;namespaced_id>]
+# Umieść blok niestandardowy.
+# Składnia set_custom_block [&#x3C;location>|...] [&#x3C;namespaced_id>]
 set_custom_block &#x3C;context.location> ruby_block 
-# Check if block is a custom block
+# Sprawdź czy blok jest blokiem niestandardowym
 context.location.is_ia_block
-# Get block namespaced id
+# Zdobądź identyfikator bloku z nazwą
 context.location.ia_namespaced_id</code></pre>
 
-## Examples
+## Przykład
 
 ```yaml
 my_world_script:
