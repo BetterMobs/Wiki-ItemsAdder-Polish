@@ -1,9 +1,9 @@
 # CraftEnhance
 
-## [Download here](https://www.spigotmc.org/resources/1-9-1-16-custom-recipes-and-crafting-craftenhance.65058/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/1-9-1-16-custom-recipes-and-crafting-craftenhance.65058/)
 
 {% hint style="warning" %}
-#### Partially compatible
+#### Częściowo kompatybilny
 
-(we have to wait CraftEnhance developer to implement ItemsAdder API properly)
+(musimy poczekać, aż deweloper CraftEnhance poprawnie zaimplementuje ItemsAdder API)
 {% endhint %}
