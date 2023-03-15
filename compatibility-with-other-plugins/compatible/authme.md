@@ -1,17 +1,17 @@
 # Authme
 
-## [Download here](https://www.spigotmc.org/resources/authmereloaded.6269/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/authmereloaded.6269/)
 
-## How to apply resourcepack after login
+## Jak zastosować resourcepack po zalogowaniu
 
-Open **config.yml** of **ItemsAdder** and disable `apply-on-join`.
+Otwórz **config.yml** z **ItemsAdder** i wyłącz `apply-on-join`.
 
 ```yaml
 resource-pack:
   apply-on-join: false
 ```
 
-Open `commands.yml` of **Authme** and change `onLogin` to this:
+Otwórz `commands.yml` z **Authme** i zmień `onLogin` na to:
 
 ```yaml
 onLogin:
@@ -21,5 +21,5 @@ onLogin:
 ```
 
 {% hint style="warning" %}
-Make sure that there is **only one onLogin setting** in the configuration file.
+Upewnij się, że w pliku konfiguracyjnym jest **tylko jedno ustawienie onLogin**.
 {% endhint %}
