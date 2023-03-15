@@ -14,10 +14,10 @@
 
 {% embed url="https://cosmeticscore.devs.beer/adding-content" %}
 
-## Adding compatibility
+## Dodawanie kompatybilności
 
 {% hint style="warning" %}
-Update ItemsAdder to 3.3.0+
+Zaktualizuj ItemsAdder do 3.3.0+
 {% endhint %}
 
 {% embed url="https://cosmeticscore.devs.beer/first-install/install-base-resourcepack/itemsadder" %}
