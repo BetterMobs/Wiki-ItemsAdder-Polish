@@ -1,12 +1,12 @@
-# Usage
+# Użycie
 
-## Getting the API
+## Pobranie API
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder" %}
 
-## Custom items - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)
+## Przedmioty niestandardowe - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomStack.java)
 
-#### Getting a custom item of any type (block, item, hat, food etc.) by id or namespace:id
+#### Pobieranie niestandardowego elementu dowolnego typu (blok, przedmiot, kapelusz, jedzenie itp.) według id lub namespace:id
 
 ```java
 CustomStack stack = CustomStack.getInstance("your_item")
@@ -16,27 +16,27 @@ if(stack != null)
 }
 else
 {
-    //no custom item found with that id
+    //nie znaleziono elementu niestandardowego o tym id
 }
 ```
 
-#### Checking if a custom item exists
+#### Sprawdzanie, czy dany element istnieje
 
 ```java
 CustomStack.isInRegistry("your_item")
 ```
 
-#### Obtaining the CustomStack from a Bukkit ItemStack
+#### Uzyskanie CustomStack z Bukkit ItemStack
 
 ```java
 CustomStack stack = CustomStack.byItemStack(myItemStack);
 
-if(stack != null) // It's a custom item!
+if(stack != null) // To niestandardowy element!
 {
-    stack.setUsages(5) // For example set usages
+    stack.setUsages(5) // Dla przykładu ustawiamy "usage
     // ...
 }
-else // It's not a custom item!
+else // To nie jest element niestandardowy!
 {
      // ...
 }
@@ -44,37 +44,37 @@ else // It's not a custom item!
 
 ## Custom Blocks - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomBlock.java)
 
-#### Check if a custom block exists
+#### Sprawdź czy istnieje własny blok
 
 ```java
 CustomBlock.isInRegistry("your_item")
 ```
 
-#### Check if world block is a custom blocks
+#### Sprawdź czy blok światowy jest blokiem niestandardowym
 
 ```java
 CustomBlock customBlock = CustomBlock.byAlreadyPlaced(block);
 if(customBlock != null)
 {
-    // Custom block, do your own stuff here
+    // Blok niestandardowy, zrób tutaj swoje własne rzeczy
 }
 else
 {
-    // Not a custom block
+    // Nie jest to blok własny
 }
 ```
 
-#### Place custom block
+#### Umieść własny blok
 
 ```java
 CustomBlock customBlock = CustomBlock.getInstance("ruby_ore");
-if(customBlock != null) //not needed if you're sure the blocks exists.
+if(customBlock != null) //niezbędne, jeśli jesteś pewien, że bloki istnieją.
 {
     customBlock.place(location);
 }
 else
 {
-    // Custom block not found in ItemsAdder configurations!
+    // Niestandardowy blok nie został znaleziony w konfiguracjach ItemsAdder!
 }
 ```
 
@@ -86,37 +86,37 @@ else
 CustomEntity customEntity = CustomEntity.spawn("your_item", location)
 if(customEntity != null)
 {
-    // Custom entity spawned
+    // Pomiot niestandardowy
     
-    // Example: print the namespaced id in console
-    System.out.println(customEntity.getNamespacedID());
+    // Przykład: drukuj w konsoli identyfikator z nazwą
+    System.out.println(customEntity.getNamespacedID())
 }
 else
 {
-    // Custom entity not found in ItemsAdder configurations!
+    // Niestandardowa encja nie została znaleziona w konfiguracjach ItemsAdder!
 }
 ```
 
-### Get custom entity by an already spawned Bukkit entity
+### Uzyskanie niestandardowej encji przez już spłodzoną encję Bukkit
 
 ```java
 CustomEntity customEntity = CustomEntity.byAlreadySpawned(entity)
 if(customEntity != null)
 {
-    // It's a custom entity
+    // To jest niestandardowa encja
     
-    // Example: print the namespaced id in console
-    System.out.println(customEntity.getNamespacedID());
+    // Przykład: wypisanie w konsoli nazwy podmiotu
+    System.out.println(customEntity.getNamespacedID())
 }
 else
 {
-    // This Bukkit entity is not a custom entity!
+    // Ta encja Bukkit nie jest encją niestandardową!
 }
 ```
 
-## Liquids API
+## API płynów
 
-Please also install [IALiquids ](https://www.spigotmc.org/resources/84386)addon to have some test liquids
+Proszę również zainstalować addon [IALiquids ](https://www.spigotmc.org/resources/84386)aby mieć kilka testowych płynów.
 
 ```java
 @EventHandler
@@ -129,62 +129,3 @@ void interact(PlayerInteractEvent e)
     else if(e.getAction() == Action.RIGHT_CLICK_BLOCK)
     {
         System.out.println(ItemsAdder.getLiquidName(e.getClickedBlock().getRelative(e.getBlockFace()).getLocation()));
-    }
-}
-```
-
-## Changing HUD values with API
-
-### Setting a float value in a Frames Hud
-
-```java
-PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
-PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
-hud.setFloatValue(1f);
-```
-
-### Making a HUD visible.
-
-```java
-PlayerHudsHolderWrapper playerHudsHolderWrapper = new PlayerHudsHolderWrapper(playerObject);
-PlayerQuantityHudWrapper hud = new PlayerQuantityHudWrapper(playerHudsHolderWrapper, "namespace_name:hud_name");
-hud.setVisible(true);
-```
-
-## Old stuff:
-
-### Custom mobs <mark style="color:orange;">(old)</mark> - [docs](https://github.com/LoneDev6/API-ItemsAdder/blob/master/src/main/java/dev/lone/itemsadder/api/CustomMob.java)
-
-#### Spawn a custom mob by id or namespace:id
-
-```java
-CustomMob customMob = CustomMob.spawn("your_item", location)
-if(customMob != null)
-{
-    //spawned the custom mob
-    
-    //example, print the display name in console
-    System.out.println(customMob.getName());
-}
-else
-{
-    //no custom mob found with that id
-}
-```
-
-#### Get custom mob by mob already spawned in the world
-
-```java
-CustomMob customMob = CustomMob.byAlreadySpawned(entity)
-if(customMob != null)
-{
-    //it's a custom mob
-    
-    //example, print the display name in console
-    System.out.println(customMob.getName());
-}
-else
-{
-    //this mob is not a custom mob
-}
-```
