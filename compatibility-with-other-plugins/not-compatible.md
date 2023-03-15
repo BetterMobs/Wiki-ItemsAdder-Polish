@@ -1,11 +1,11 @@
-# ⚠ Not compatible
+# ⚠ Nie kompatybilne
 
-_**Is it compatible with plugin X?**_
+_**Czy jest to kompatybilne za pluginem X?**_
 
-I can't answer surely to this question because I can't know how every plugin in the world is coded, but here is a list of plugins that can cause problems:
+Nie mogę z pewnością odpowiedzieć na to pytanie, ponieważ nie mogę wiedzieć, jak każda wtyczka na świecie jest zakodowana, ale oto lista wtyczek, które mogą powodować problemy:
 
-* All plugins that uses **custom resourcepacks** (you can make them compatible if you've a minimum knowledge on how to merge resourcepacks manually, be sure to not replace ItemsAdder files and you're done)
-* [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/), this plugin messes up ItemsAdder custom recipes logic and creates duplication bugs. So please don't use it
-* Plugins that customize crafting table behaviour and recipes
-* [LootChest ](https://www.spigotmc.org/resources/lootchest.61564/)can cause some [problems](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
-* For now it's **not compatible** with **plugins** and world generators that **spawn mushroom** blocks with different faces to create custom textures. In the future I will add compatibility.
+* Wszystkie pluginy, które używają **customową paczkę zasobów** (możesz sprawić, że będą kompatybilne, jeśli masz minimalną wiedzę na temat ręcznego łączenia resourcepacków, upewnij się, że nie zastąpisz plików ItemsAdder i gotowe)
+* [CraftEnhance](https://www.spigotmc.org/resources/custom-recipes-and-crafting-craftenhance.65058/), ta wtyczka psuje logikę niestandardowych receptur ItemsAdder i tworzy błędy duplikacji. Więc proszę nie używać go
+* Pluginy, które dostosowują zachowanie stołu do craftingu i receptur
+* [LootChest ](https://www.spigotmc.org/resources/lootchest.61564/)może stwarzać kilka problemów [problemy](https://github.com/LoneDev6/ItemsAdder/issues/15#issuecomment-512990849)
+* Na razie nie jest to **kompatybilne** z **pluginami** i generatorami świata, które **wyrzucają grzybki** z różnymi twarzami, aby stworzyć niestandardowe tekstury. W przyszłości dodam kompatybilność.
