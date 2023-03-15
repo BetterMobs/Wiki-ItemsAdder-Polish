@@ -1,36 +1,36 @@
 # Expert users
 
-## Installing the required dependencies
+## Instalowanie wymaganych zależności
 
-* Install [skript](https://github.com/SkriptLang/Skript/releases/latest)
-* Install [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/latest)
+* Zainstaluj [skript](https://github.com/SkriptLang/Skript/releases/latest)
+* Zainstaluj [skript-reflect](https://github.com/TPGamesNL/skript-reflect/releases/latest)
 
 {% hint style="info" %}
-To get more info about **skript-reflect** please read its [wiki](https://tpgamesnl.gitbook.io/skript-reflect/)
+Aby uzyskać więcej informacji o **skript-reflect** proszę przeczytać jego [wiki](https://tpgamesnl.gitbook.io/skript-reflect/)
 {% endhint %}
 
 {% hint style="danger" %}
-#### Please **do not ask** for **support** for **skript** related issues or questions.
+#### Proszę **nie prosić** o **wsparcie** w sprawach lub pytaniach związanych z **skriptem**.
 
-I'm not a skript expert and I'm not the developer of **skript** nor **skript-reflect**.\
-**Every question about skript will be ignored**, I hope you understand.
+Nie jestem ekspertem od skriptów i nie jestem twórcą **skript** ani **skript-reflect**.
+**Każde pytanie dotyczące skript będzie ignorowane**, mam nadzieję, że rozumiesz.
 {% endhint %}
 
-## Examples
+## Przykłady.
 
-### Getting item on command
+### Uzyskanie elementu na komendę
 
-```yaml
+``yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
 
-command /iaskript:
+command /iaskrypt:
   trigger:
     set {testItem} to ItemsAdder.getCustomItem("itemsadder:ruby")
     sender.getInventory().addItem({testItem})
 ```
 
-### Check if clicked block is custom block
+### Sprawdź czy kliknięty blok jest blokiem własnym
 
 ```yaml
 import:
@@ -38,21 +38,21 @@ import:
   org.bukkit.event.player.PlayerInteractEvent
   org.bukkit.inventory.EquipmentSlot as EquipmentSlot
 
-on PlayerInteractEvent:
+na PlayerInteractEvent:
     if event.getHand() is EquipmentSlot.OFF_HAND: 
         stop
 
-    set {_clickedBlock} to event.getClickedBlock()
-    set {_isCustomBlock} to ItemsAdder.isCustomBlock({_clickedBlock})
-    event.getPlayer().sendMessage("Is custom block: %{_isCustomBlock}%")
+    ustaw {_clickedBlock} na event.getClickedBlock()
+    ustaw {_isCustomBlock} na ItemsAdder.isCustomBlock({_clickedBlock})
+    event.getPlayer().sendMessage("Jest niestandardowy blok: %{_isCustomBlock}%")
 
-    if {_isCustomBlock} is true:
+    jeśli {_isCustomBlock} jest prawdziwe:
         set {_tmp} to ItemsAdder.getCustomBlock({_clickedBlock})
-        set {_name} to {_tmp}.getItemMeta().getDisplayName()
+        ustaw {_name} na {_tmp}.getItemMeta().getDisplayName()
         event.getPlayer().sendMessage("%{_name}%")
 ```
 
-### Custom GUI
+### Własne GUI
 
 ```yaml
 import:
@@ -68,22 +68,22 @@ command /iaguitest:
 	
 		set {_customTexture} to new FontImageWrapper("mcguis:blank_menu")
 		set {_gui} to new TexturedInventoryWrapper(null, 54, "&0Test" and {_customTexture})
-		set {_icon} to ItemsAdder.getCustomItem("mcicons:icon_confirm")
-		add player to {players::*}
-		set slot 12 of {_gui}.getInternal() to {_icon}
+		ustaw {_icon} na ItemsAdder.getCustomItem("mcicons:icon_confirm")
+		dodajemy gracza do {players::*}
+		ustaw slot 12 z {_gui}.getInternal() na {_icon}
 		{_gui}.showInventory(player)
  
-on inventory click:
+po kliknięciu na inwentarz:
 	if {players::*} contain player:
 		if index of event-slot = 12:
-			cancel event
+			anuluj zdarzenie
 			send "Confirmed!"
 
-on inventory close:
-	remove player from {players::*}
+przy zamykaniu inwentarza:
+	usuń gracza z {players::*}
 ```
 
-### Change HUD value
+### Zmiana wartości HUD
 
 ```yaml
 import:
@@ -91,14 +91,15 @@ import:
   dev.lone.itemsadder.api.FontImages.PlayerHudsHolderWrapper
 
 
-command /healme:
+polecenie /healme:
 	trigger:
 		set {_player} to new PlayerHudsHolderWrapper(player)
 		set {_hud} to new PlayerQuantityHudWrapper({_player}, "realcraft:thirst_bar")
 		{_hud}.setFloatValue(10.0)
-		heal the player
-            	set the player's food level to 10
+		ulecz gracza
+            	ustawi poziom jedzenia gracza na 10
 ```
+
 
 Iitem menu
 
