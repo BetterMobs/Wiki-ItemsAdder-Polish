@@ -1,21 +1,21 @@
 # Iris
 
-## [Download here](https://www.spigotmc.org/resources/iris-world-gen-custom-biome-colors.84586/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/iris-world-gen-custom-biome-colors.84586/)
 
 ## Enabling compatibility
 
-### Step 1
+### Krok 1
 
-Install [ItemsAdderBlocksInjector](https://www.spigotmc.org/resources/itemsadderblocksinjector.102078/) and <mark style="color:red;">don't remove it after installation!</mark>
+Zainstaluj [ItemsAdderBlocksInjector](https://www.spigotmc.org/resources/itemsadderblocksinjector.102078/) i <mark style="color:red;">nie usuwaj go po instalacji!</mark>.
 
-### Step 2
+### Krok 2
 
-Create your Iris world (follow their guides) and use your ItemsAdder custom blocks IDs as you would do with vanilla blocks.
+Stwórz swój świat Iris (postępuj zgodnie z ich przewodnikami) i użyj identyfikatorów bloków niestandardowych ItemsAdder, tak jak zrobiłbyś to z blokami waniliowymi.
 
 \
-For example open this file of the `overworld` pack: `plugins\Iris\packs\overworld\biomes\mountain\mountain.json`
+Na przykład otwórz ten plik pakietu `overworld`: `plugins\Iris\packs\overworld\biomes\mountain.json`.
 
-Then edit the layers settings to use a custom block, in this example the custom **Amethyst Block**:
+Następnie edytuj ustawienia warstw, aby użyć niestandardowego bloku, w tym przykładzie niestandardowego **Amethyst Block**:
 
 ```json
 "layers": [
@@ -31,13 +31,13 @@ Then edit the layers settings to use a custom block, in this example the custom 
     },
 ```
 
-This will generate a similar result:
+Spowoduje to wygenerowanie podobnego wyniku:
 
 ![](<../../.gitbook/assets/image (49).png>)
 
 ![](<../../.gitbook/assets/image (96).png>)
 
-## Compatibility issues
+## Problemy z kompatybilnością.
 
-* FastAsyncWorldEdit will stop working, there is nothing I can do about that.
-* WorldEdit `//undo` and `//copy` won't work with the custom blocks placed by `Iris`, they would be reverted back to `NOTE_BLOCK` (or `mushroom`, `TRIPWIRE`, `CHORUS_PLANT`)
+* FastAsyncWorldEdit przestanie działać, nie mogę nic z tym zrobić.
+* WorldEdit `//undo` i `//copy` nie będzie działał z niestandardowymi blokami umieszczonymi przez `Iris`, zostaną one przywrócone do `NOTE_BLOCK` (lub `mushroom`, `TRIPWIRE`, `CHORUS_PLANT`)
