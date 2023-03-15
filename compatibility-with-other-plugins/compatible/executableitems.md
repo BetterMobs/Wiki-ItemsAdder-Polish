@@ -1,19 +1,19 @@
 # ExecutableItems
 
-## [Download here](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/custom-items-free-executable-items-1-12-1-17.77578/)
 
-## How to connect an ExecutableItem to an ItemsAdder custom item
+## Jak podłączyć ExecutableItem do elementu ItemsAdder
 
 {% hint style="warning" %}
-UPDATE **ITEMSADDER** TO **2.2.20+**\
-UPDATE **ExecutableItems** to **4.2.3.5+**
+ZAKTUALIZUJ **ITEMSADDER** DO WERSJI **2.2.20+**.
+UPDATE **ExecutableItems** to **4.2.3.5+**.
 {% endhint %}
 
-## Create the ItemsAdder item
+## Tworzenie elementu ItemsAdder
 
-### Create your .yml file as usual and add all the properties for the ItemsAdder item
+### Utwórz swój plik .yml jak zwykle i dodaj wszystkie właściwości dla elementu ItemsAdder
 
-In this example I will connect an **ItemsAdder** item called `executableitem_test` to the example `spit` item from ExecutableItem example files.
+W tym przykładzie podłączę element **ItemsAdder** o nazwie `executableitem_test` do przykładowego elementu `spit` z plików przykładowych ExecutableItem.
 
 ```yaml
 info:
@@ -26,20 +26,20 @@ items:
       id: Free_Spit
     resource:
       material: IRON_INGOT
-      generate: true
-      textures:
+      generować: true
+      tekstury:
       - item/executableitem_test.png
     durability:
       max_custom_durability: 1324
 ```
 
 {% hint style="success" %}
-As you can see I set a new attribute called \*\*`executableitem`\*\*and **`id`**.\
-These are used to **connect** the **two items**.
+
+Są one używane do **połączenia** dwóch elementów**.
 {% endhint %}
 
-### Get the item
+### Pobierz element
 
-Run `/iaget executableitem_test` and get the item!
+Uruchom `/iaget executableitem_test` i uzyskaj element!
 
-![](<../../.gitbook/assets/image\_(140) (1) (1).png>)
+![](<../../.gitbook/assets/image_(140) (1) (1).png>)
