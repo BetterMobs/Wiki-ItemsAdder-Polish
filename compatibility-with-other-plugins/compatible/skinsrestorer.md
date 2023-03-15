@@ -2,15 +2,15 @@
 
 ## [Download here](https://www.spigotmc.org/resources/skinsrestorer.2124/)
 
-## How to fix resourcepack not applying on join
+# How to fix resourcepack not applying on join
 
-### Step 1
+### Krok 1
 
-Install [**ResourcepackBroadcast**](https://www.spigotmc.org/resources/resourcepackbroadcast.88318/)\*\*\*\*
+Zainstaluj [**ResourcepackBroadcast**](https://www.spigotmc.org/resources/resourcepackbroadcast.88318/)\NNiech to będzie coś więcej.
 
-### Step 2
+### Krok 2
 
-Set the **ResourcepackBroadcast** `config.yml` to run `sr applyskin` when the resourcepack is loaded correctly:
+Ustaw w **ResourcepackBroadcast** `config.yml`, aby uruchomić `sr applyskin`, gdy resourcepack jest załadowany poprawnie:
 
 ```yaml
 success:
@@ -27,15 +27,13 @@ success:
       command: sr applyskin %player_name%
       as_console: true
 ```
+### Krok 3
 
-### Step 3
+Otwórz `config.yml` programu **SkinsRestorer** i ustaw `DisableOnJoinSkins: false`.
 
-Open `config.yml` of **SkinsRestorer** and set `DisableOnJoinSkins: false`
+### Krok 4
 
-### Step 4
+Zainstaluj [PlaceholderAPI ](https://www.spigotmc.org/resources/placeholderapi.6245/) (jeśli go nie masz).  
+Wykonaj polecenie `/papi ecloud download Player` następnie `/papi reload`.
 
-Install [PlaceholderAPI ](https://www.spigotmc.org/resources/placeholderapi.6245/)\(if you don't have it\).  
-Execute the command `/papi ecloud download Player` then `/papi reload`.
-
-### Done
-
+### Gotowe
