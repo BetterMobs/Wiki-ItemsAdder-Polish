@@ -1,30 +1,29 @@
 # ItemBridge
 
-## [Download here](https://www.spigotmc.org/resources/77080/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/77080/)
 
 {% hint style="warning" %}
-You need **ItemsAdder** 3.1.0+ and **ItemBridge** 3.1+.
+Potrzebujesz **ItemsAdder** 3.1.0+ i **ItemBridge** 3.1+.
 {% endhint %}
 
-## How to get an ItemsAdder item using ItemBridge
+## Jak uzyskać element ItemsAdder za pomocą ItemBridge
 
-To get a custom item using **Mimic** you have to use this command:
+Aby uzyskać niestandardowy element za pomocą **Mimic** należy użyć tego polecenia:
 
-`/ib get`` `<mark style="color:blue;">`ia:<item namespaced id>`</mark>
+`/ib get`` `<mark style="color:blue;">`ia:<item namespaced id>`</mark>.
 
-`/ib give <player>`` `<mark style="color:blue;">`ia:<item namespaced id>`</mark>
+`/ib give <player>` `<mark style="color:blue;">`ia:<item namespaced id>`</mark>.
 
-`/ib drop <world> <x> <y> <z>`` `<mark style="color:blue;">`ia:<item namespaced id>`</mark>` ``[amount]`
+`/ib drop <world> <x> <y> <z>`` `<mark style="color:blue;">`ia:<item namespaced id>`</mark>` `[amount]`.
 
-### Example
+### Przykład.
 
 `/ib give LoneDev ia:itemsadder:ruby_sword`
 
 {% hint style="warning" %}
-It's important to add `ia:` in front of the ItemsAdder custom item name or **ItemBridge** won't recognize it.
+Ważne jest, aby dodać `ia:` przed nazwą niestandardowego elementu ItemsAdder lub **ItemBridge** nie rozpozna go.
 
-In this case `itemsadder:ruby_sword` must be specified as `ia:itemsadder:ruby_sword`.
+W tym przypadku `itemsadder:ruby_sword` musi być określone jako `ia:itemsadder:ruby_sword`.
 {% endhint %}
-
 
 
