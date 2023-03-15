@@ -45,3 +45,5 @@ Kupuj ten plugin tylko z oficjalnych sklepów, jeśli kupiłeś gdzieś indzie, 
 ### Bez PayPal
 
 * [Polymart](https://polymart.org/resource/itemsadder-custom-items-etc.1851)
+
+translated by BetterMobs- pmalys
