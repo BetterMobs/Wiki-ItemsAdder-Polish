@@ -1,56 +1,56 @@
 # RealisticWorldGenerator
 
-## [Download here](https://www.spigotmc.org/resources/realisticworldgenerator-1-8-8-1-16-x.15905/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/realisticworldgenerator-1-8-8-1-16-x.15905/)
 
-## Compatibility
+## Kompatybilność
 
-* biomes
-* ores
-* schematics (RWG schematics)
+* biomy
+* rudy
+* schematy (schematy RWG)
 
 {% hint style="warning" %}
-This works only on ItemsAdder 2.5.2+ and RealisticWorldGenerator 4.30+
+To działa tylko na ItemsAdder 2.5.2+ i RealisticWorldGenerator 4.30+.
 {% endhint %}
 
-## Warnings
+## Ostrzeżenia
 
 {% hint style="danger" %}
-Do not use custom blocks as base ores blocks. This will cause too much lag.\
-Keep using vanilla blocks for this purpose.
+Nie używaj niestandardowych bloków jako bloków rud bazowych. To spowoduje zbyt duży lag.\N
+Nadal używaj do tego celu bloków waniliowych.
 {% endhint %}
 
 {% code title="ores.yml" %}
 ```yaml
-ores:
+rudy:
   veins:
     biome_layers:
       paste: false
     type: 1
-    enabled: true
+    włączony: true
   base:
     block: ia:itemsadder:ruby_block # <---- DO NOT DO THIS!
 ```
 {% endcode %}
 
 {% hint style="success" %}
-Use custom blocks only for:
+Używaj niestandardowych bloków tylko dla:
 
-* surfaces
-* ores
-* structures (schematics)
+* powierzchni.
+* rudy
+* struktur (schematów)
 {% endhint %}
 
-## How to use custom blocks
+## Jak używać niestandardowych bloków
 
-For example let's create a biome which has ruby\_block as top layer.
+Dla przykładu stwórzmy biome, który ma rubinowy blok jako górną warstwę.
 
-Open the `biomes.yml` file of your **RealisticWorldGenerator** world configuration folder.
+Otwórz plik `biomes.yml` w swoim folderze konfiguracyjnym świata **RealisticWorldGenerator**.
 
-Decide a biome (for example `plains`) and add this as first layer.
+Zdecyduj się na biome (na przykład `plains`) i dodaj to jako pierwszą warstwę.
 
 {% code title="biomes.yml" %}
 ```yaml
-plains:
+równiny:
   layer:
     '1':
     - ia:itemsadder:ruby_ore;120
@@ -61,22 +61,21 @@ plains:
 ```
 {% endcode %}
 
-In this example I also modified the `settings.yml` file of this world to make sure only a biome is generated, to find my custom blocks easier.
+W tym przykładzie zmodyfikowałem również plik `settings.yml` tego świata, aby upewnić się, że generowany jest tylko biome, aby łatwiej znaleźć moje niestandardowe bloki.
 
 {% code title="settings.yml" %}
 ```yaml
 one_biome:
   biome: PLAINS
-  oceans: false
+  oceany: false
   enabled: true
 ```
 {% endcode %}
 
-### This is the final result
+### Oto końcowy rezultat
 
-This is a world with a custom surface
+To jest świat z niestandardową powierzchnią
 
 ![](<../../.gitbook/assets/image (41) (1).png>)
-
 
 
