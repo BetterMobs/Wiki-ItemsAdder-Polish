@@ -2,11 +2,11 @@
 
 ## [Download Here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-rpgmoney-money-with-custom-texture-no-mods.25392/)
 
-* in **RPGMoney** folder open `config.yml` and set **`apply_on_join: false`**
-* set `item_icon` like this:
+* w folderze **RPGMoney** otwórz `config.yml` i ustaw **`apply_on_join: false`**.
+* ustaw `item_icon` w ten sposób:
 
 {% hint style="warning" %}
-You must have the [DefaultPack](../../first-install.md#default-pack-optional) installed!
+Musisz mieć zainstalowany [DefaultPack](../../first-install.md#default-pack-optional)!
 {% endhint %}
 
 ```yaml
@@ -16,4 +16,4 @@ item_icon:
   sack_of_money: "iageneric:sack_of_money"
 ```
 
-* restart the server
+* zrestartuj serwer
