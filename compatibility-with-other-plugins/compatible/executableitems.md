@@ -5,8 +5,8 @@
 ## Jak podłączyć ExecutableItem do elementu ItemsAdder
 
 {% hint style="warning" %}
-ZAKTUALIZUJ **ITEMSADDER** DO WERSJI **2.2.20+**.
-UPDATE **ExecutableItems** to **4.2.3.5+**.
+ZAKTUALIZUJ **ITEMSADDER** DO **2.2.20+**.
+ZAKTUALIZUJ **ExecutableItems** DO **4.2.3.5+**.
 {% endhint %}
 
 ## Tworzenie elementu ItemsAdder
