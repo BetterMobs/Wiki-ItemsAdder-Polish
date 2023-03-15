@@ -1,80 +1,80 @@
-# API Utilities
+# Narzędzia API
 
-## API Utilities
+## Narzędzia API
 
-These are some static utilities to fast get some information.
+To są niektóre statyczne narzędzia do szybkiego uzyskania pewnych informacji.
 
 {% hint style="warning" %}
-Note that these static utility methods are for lazy usage, you should use the other API classes instead.
-{% endhint %}
+Zauważ, że te statyczne metody narzędziowe są przeznaczone do leniwego użycia, powinieneś użyć innych klas API zamiast tego.
+{endhint %}
 
 ```java
-// Check if itemsadder finished loading its items and if they are available
-// Normally you should use ItemsAdderFirstLoadEvent instead.
-// but sometimes you might also need to check this programmatically.
+// Sprawdza czy itemsadder zakończył ładowanie swoich elementów i czy są one dostępne
+// Normalnie powinieneś użyć ItemsAdderFirstLoadEvent zamiast tego.
+// ale czasami możesz potrzebować sprawdzić to również programowo.
 public static boolean areItemsLoaded()
 
-//Checks if an item is a custom item made with ItemsAdder
+/Sprawdza, czy element jest elementem niestandardowym wykonanym za pomocą ItemsAdder.
 public static boolean isCustomItem(ItemStack itemStack)
 public static boolean isCustomItem(String customItemName)
 
-//returns the ItemStack of a custom block in world
+//zwraca ItemStack niestandardowego bloku w świecie
 public static ItemStack getCustomBlock(Block block)
 
-//check if an entity in world is a furniture
+//sprawdza, czy obiekt w świecie jest meblem
 public static boolean isFurniture(Entity entity)
 
-//check if an ItemStack is a specific custom item 
-//(example: check if a pickaxe is 'amethyst_pickaxe')
+//sprawdzenie, czy ItemStack jest określonym elementem niestandardowym 
+//(przykład: sprawdzenie czy kilof jest 'amethyst_pickaxe')
 public static boolean matchCustomItemName(ItemStack itemStack, String customItemName)
 ```
 
-## Old API methods
+## Stare metody API.
 
 {% hint style="warning" %}
-This is the old API, it's still available and working fine.
-{% endhint %}
+To jest stare API, nadal jest dostępne i działa dobrze.
+{endhint %}
 
 ```java
-//Get an ItemsAdder custom item by its name in config
+//Uzyskanie elementu niestandardowego ItemsAdder według jego nazwy w konfiguracji
 public static ItemStack getCustomItem(String nameInConfig)
 
-//Spawns a block made with ItemsAdder specifying the itemstack 
-//(obtain it with getCustomItem)
+//Spawns blok wykonany z ItemsAdder określający itemstack 
+//(uzyskać go przy pomocy getCustomItem)
 public static void placeCustomBlock(Location location, ItemStack customBlock)
 public static void placeCustomBlock(Location location, ItemStack customBlock, boolean lightweight)
 
-//get custom block loots
+//zbierz łupy z bloku niestandardowego
 public static List<ItemStack> getCustomBlockLoot(Block block, ItemStack tool, boolean includeSelfBlock)
 
-//Check if a block in the world is a custom block made with ItemsAdder
+/Sprawdzanie czy blok na świecie jest blokiem niestandardowym wykonanym za pomocą ItemsAdder
 public static boolean isCustomBlock(Block block)
 
-//plants custom seed like a normal player would do
+//rozmieszcza niestandardowe nasiona tak, jak zrobiłby to normalny gracz
 public static void placeCustomCrop(Location location, ItemStack seed)
 
-//check if block is custom planted crop with custom seed
+//sprawdza czy blok jest niestandardową rośliną z niestandardowymi nasionami
 public static boolean isCustomCrop(Block block)
 
-//get custom seed of custom crop
+//zapoznaj się z niestandardowym ziarnem niestandardowej uprawy
 public static String getCustomSeedNameFromCrop(Block block)
 
-//get name of the item in config (ex: 'ruby_pickaxe')
+//zapoznaj się z nazwą elementu w configu (np. 'ruby_pickaxe')
 public static String getCustomItemName(ItemStack itemStack)
 
-//get name of config where the item is declared (ex: 'items/swords')
+//zapozna się z nazwą konfiguracji, w której dany element jest zadeklarowany (np. 'items/swords')
 public static String getCustomItemFileName(ItemStack itemStack)
 
-//gets usages remaining of this item (-999 if it has no usages specified = infinite)
+//zapyta o pozostałą ilość zastosowań tego elementu (-999 jeżeli nie ma określonych zastosowań = infinite)
 public static int getCustomItemUsages(ItemStack itemStack)
 
-//set custom item durability (also works with vanilla items and with
-//custom items with default vanilla durability)
+//ustala niestandardową trwałość przedmiotu (działa również z przedmiotami waniliowymi i z
+//niestandardowymi przedmiotami z domyślną trwałością waniliową)
 public static ItemStack setCustomItemDurability(ItemStack item, int durability)
 
-//get custom durability
+//uzyskaj niestandardową trwałość
 public static int getCustomItemDurability(ItemStack itemStack)
 
-//get max custom durability 
+//zapoznaj się z maksymalną niestandardową trwałością 
 public static int getCustomItemMaxDurability(ItemStack itemStack)
 ```
