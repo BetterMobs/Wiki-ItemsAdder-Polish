@@ -1,6 +1,6 @@
-# HUDs, GUIs...
+# HUDy, GUI...
 
-To see how to use HUDs and GUIs API (Font Images) you can check my examples.
+Aby zobaczyć jak używać HUDów i GUIs API (obrazy czcionek) możesz sprawdzić moje przykłady.
 
 ## GUIs
 
@@ -12,7 +12,7 @@ To see how to use HUDs and GUIs API (Font Images) you can check my examples.
 
 {% embed url="https://github.com/LoneDev6/API-ItemsAdder-Example-ServerMonitor" %}
 
-### Access mana bar value example
+### Przykład wartości paska many dostępu
 
 ```java
 PlayerHudsHolderWrapper huds = new PlayerHudsHolderWrapper(player);
@@ -24,13 +24,13 @@ else
   System.out.println("Error: mana not found, maybe it's disabled.");
 ```
 
-## FAQ
+## FAQ.
 
 {% content-ref url="../../plugin-usage/adding-content/font-images/common-errors.md" %}
-[common-errors.md](../../plugin-usage/adding-content/font-images/common-errors.md)
+[common-errors.md](../../plugin-usage/adding-content/font-images/common-errors.md).
 {% endcontent-ref %}
 
-## Get Emoji or GUI character
+## Pobierz Emoji lub znak GUI
 
 ```java
 new FontImageWrapper("twitteremojis:confirm").getString()
