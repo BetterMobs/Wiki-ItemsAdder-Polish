@@ -2,7 +2,7 @@
 
 ## [Pobierz tutaj](https://www.spigotmc.org/resources/iris-world-gen-custom-biome-colors.84586/)
 
-## Enabling compatibility
+## Włączanie kompatybilności
 
 ### Krok 1
 
