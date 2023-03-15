@@ -1,13 +1,13 @@
 # EpicBackpacks
 
-## [Download the backpack plugin here](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)
+## [Pobierz plugin plecaka tutaj](https://www.spigotmc.org/resources/%E2%9C%85must-have%E2%9C%85-epic-backpacks.28981/)
 
 {% hint style="warning" %}
-You must have the [DefaultPack](../../first-install.md#default-pack-optional) installed!
+Musisz mieć zainstalowany [DefaultPack](../../first-install.md#default-pack-optional)!
 {% endhint %}
 
 {% hint style="success" %}
-To create backpacks that will use ItemsAdder texture you have to open backpacks.yml (in EpicBackpacks folder) and add this (one for each backpack you want to create):
+Aby stworzyć plecaki, które będą korzystać z tekstury ItemsAdder musisz otworzyć backpacks.yml (w folderze EpicBackpacks) i dodać to (po jednym dla każdego plecaka, który chcesz stworzyć):
 {% endhint %}
 
 ```yaml
