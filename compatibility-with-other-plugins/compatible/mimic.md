@@ -1,34 +1,34 @@
 # Mimic
 
-## [Download here](https://github.com/EndlessCodeGroup/Mimic)
+## [Pobierz tutaj](https://github.com/EndlessCodeGroup/Mimic)
 
 {% hint style="warning" %}
-You need **ItemsAdder** 2.5.3+ and **Mimic** 0.6.3+.
+Potrzebujesz **ItemsAdder** 2.5.3+ i **Mimic** 0.6.3+.
 {% endhint %}
 
-## How to get an ItemsAdder item using Mimic
+## Jak uzyskać element ItemsAdder za pomocą Mimic
 
-To get a custom item using **Mimic** you have to use this command:
+Aby uzyskać niestandardowy przedmiot za pomocą **Mimic** należy użyć tej komendy:
 
-`/mimic items give <player> ia:<item id>`
+`/mimic items give <player> ia:<item id>`.
 
-### Example
+### Przykład.
 
-`/mimic items give LoneDev ia:itemsadder:ruby_sword`
+`/mimic items give LoneDev ia:itemsadder:ruby_sword`.
 
 {% hint style="warning" %}
-It's important to add `ia:` in front of the ItemsAdder custom item name or Mimic won't recognize it.
+Ważne jest, aby dodać `ia:` przed nazwą przedmiotu ItemsAdder custom lub Mimic nie rozpozna go.
 
-In this case `itemsadder:ruby_sword` must be specified as `ia:itemsadder:ruby_sword`.
+W tym przypadku `itemsadder:ruby_sword` musi być określone jako `ia:itemsadder:ruby_sword`.
 {% endhint %}
 
-## Compare an item
+## Porównaj element
 
-You can even compare an item using Mimic.
+Możesz nawet porównać element używając Mimic.
 
-### Example
+### Przykład
 
-Hold a `Ruby Sword` in hand and run this command.
+Trzymaj w ręku `Ruby Sword` i uruchom tę komendę.
 
 `/mimic items compare ia:itemsadder:ruby_sword`
 
