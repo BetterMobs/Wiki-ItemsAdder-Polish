@@ -1,4 +1,4 @@
-# Expert users
+# Zaawansowani użytkownicy
 
 ## Instalowanie wymaganych zależności
 
