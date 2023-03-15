@@ -1,13 +1,13 @@
 # AdvancedEnchantments
 
-## [Download here](https://www.spigotmc.org/resources/43058/)
+## [Pobierz tu](https://www.spigotmc.org/resources/43058/)
 
-## How to use enchants
+## Jak urzywać zaklęć
 
-This is an example configuration for an ItemsAdder custom item enchant.
+To jest przykładowa konfiguracja do ItemsAdder.
 
 {% hint style="warning" %}
-This requires **ItemsAdder** 2.5.2+
+To wymaga **ItemsAdder** 2.5.2+
 {% endhint %}
 
 ```yaml
