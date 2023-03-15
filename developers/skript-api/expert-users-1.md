@@ -20,7 +20,7 @@ Nie jestem ekspertem od skriptów i nie jestem twórcą **skript** ani **skript-
 
 ### Uzyskanie elementu na komendę
 
-``yaml
+```yaml
 import:
   dev.lone.itemsadder.api.ItemsAdder
 
