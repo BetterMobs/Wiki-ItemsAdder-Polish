@@ -1,5 +1,5 @@
 ---
-description: Worldguard flags list
+opis: Lista flag Worldguard.
 ---
 
 # WorldGuard
@@ -8,58 +8,58 @@ description: Worldguard flags list
 
 ### ia-furniture-sit
 
-This flags allows your players to sit on furnitures or not (furnitures with `furniture_sit` [behaviour](../../plugin-usage/adding-content/item-properties/behaviours.md))
+Ta flaga pozwala graczom siedzieć na meblach lub nie (meble z `furniture_sit` [behaviour](../../plugin-usage/adding-content/item-properties/behaviours.md))
 
 ### ia-campfire-item-add
 
-Allow user to move item to campfire
+Umożliwienie użytkownikowi przeniesienia przedmiotu do ogniska
 
 ### ia-campfire-item-remove
 
-Allow user to remove item from campfire
+Pozwala użytkownikowi usunąć przedmiot z ogniska
 
 ### ia-vehicle-place
 
-Allow user to place vehicles in the region
+Pozwala użytkownikowi na umieszczenie pojazdów w regionie
 
 ### ia-vehicle-remove
 
-Allow user to remove ANY vehicle in the region
+Pozwala użytkownikowi na usunięcie KAŻDEGO pojazdu w regionie
 
 ### ia-vehicle-personal-remove
 
-allow user to remove only their own vehicles in the region
+pozwala użytkownikowi na usuwanie tylko jego własnych pojazdów w regionie
 
 ### ia-vehicle-sit
 
-Allow user to sit on any vehicle in the region
+Pozwala użytkownikowi usiąść na dowolnym pojeździe w regionie
 
 ### ia-vehicle-personal-sit
 
-allow user to sit only on their own vehicles in the region
+pozwala użytkownikowi siedzieć tylko na własnych pojazdach w regionie
 
 ### ia-trade-machine-use
 
-allow user to use trade machines
+zezwala użytkownikowi na korzystanie z maszyn handlowych
 
 ### ia-placed-block-interact
 
-allow user to trigger placed\_block.interact events
+pozwala użytkownikowi na wyzwalanie zdarzeń typu placedblock.interact
 
 ### ia-placed-armorstand-interact
 
-allow user to trigger placed\_armorstand.interact events
+pozwala użytkownikowi na wyzwalanie zdarzeń interakcji z placed_armorstand.interact
 
 {% hint style="info" %}
-Set **ia-vehicle-sit** to Deny and **ia-vehicle-personal-sit** to Allow to let your players only sit on personal vehicles
-{% endhint %}
+Ustaw **iając **ia-vehicle-sit** na Deny i **ia-vehicle-personal-sit** na Allow, aby gracze mogli siedzieć tylko na osobistych pojazdach.
+{endhint %}
 
-## Common issues
+## Częste problemy
 
 {% hint style="warning" %}
-If your users **cannot sit** on **furnitures** even if you set the correct flag:
+Jeśli twoi użytkownicy **nie mogą siedzieć** na **pojazdach**, nawet jeśli ustawiłeś odpowiednią flagę:
 
-* check if you are using the `__global__ region` as your main region (the one on which you applied the furniture flag). If yes, please create a new region. global region is known to give some issues with some plugins flags.
-* check if you set the `build` or `passthrough` flag. \
-  Remember that these flags must not be changed, you should keep the default value (unselected, gray text)
+* sprawdź, czy używasz regionu `__global__` jako swojego głównego regionu (tego, na którym zastosowałeś flagę furniture). Jeśli tak, proszę utworzyć nowy region. region globalny jest znany z tego, że daje pewne problemy z niektórymi flagami wtyczek.
+* sprawdź, czy ustawiłeś flagę `build` lub `passthrough`. \
+  Pamiętaj, że tych flag nie wolno zmieniać, powinieneś zachować wartość domyślną (niezaznaczony, szary tekst)
 {% endhint %}
