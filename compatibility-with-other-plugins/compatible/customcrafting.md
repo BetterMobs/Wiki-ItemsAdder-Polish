@@ -1,12 +1,12 @@
 # CustomCrafting
 
-## [Download here](https://www.spigotmc.org/resources/55883/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/55883/)
 
 {% hint style="warning" %}
-You need **ItemsAdder** 2.5.3+ and **CustomCrafting** 3.16.0.0-f or more recent.
+Potrzebujesz **ItemsAdder** 2.5.3+ i **CustomCrafting** 3.16.0.0-f lub nowszych.
 {% endhint %}
 
-## How to use
+## Jak używać
 
-You just have to create recipes using the CustomCrafting recipes creation GUI.\
-Drag and drop ItemsAdder custom items in the ingredients/result slots, the plugin will recognize them as custom items and handle them correctly.
+Wystarczy stworzyć receptury za pomocą GUI do tworzenia receptur CustomCrafting.
+Przeciągnij i upuść ItemsAdder niestandardowe elementy w gniazdach składników / wyników, wtyczka rozpozna je jako niestandardowe elementy i obsłuży je poprawnie.
