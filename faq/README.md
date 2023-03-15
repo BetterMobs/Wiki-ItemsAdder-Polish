@@ -1,5 +1,5 @@
-# ❓ Frequently asked questions
+# ❓ Najczęściej zadawane pytania
 
-_**What type of items/weapons/bows exists? Can I create item X, weapon Y... can I add this attribute, can I, can I, can I??? Has the plugin this feature? Why do I have this problem and that problem?**_
+_** Jakie rodzaje przedmiotów/ broni/ łuków istnieją? Czy mogę stworzyć przedmiot X, broń Y... czy mogę dodać ten atrybut, czy mogę, czy mogę? Czy plugin ma taką funkcję? Dlaczego mam ten problem i ten problem?**_.
 
-I wrote this wiki and its tutorials as clearly as possible, so please don't send me support requests for the first problem you encounter configuring the plugin or if you have questions. Please use the wiki and its search bar on the top before doing this. Thanks!
+Napisałem tę wiki i jej tutoriale tak jasno, jak to możliwe, więc proszę nie wysyłać mi prośby o wsparcie dla pierwszego problemu, który napotkasz konfigurując plugin lub jeśli masz pytania. Proszę użyć wiki i jego paska wyszukiwania na górze, zanim to zrobisz. Dzięki!
