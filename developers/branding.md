@@ -13,7 +13,7 @@ Upewnij się, że przeczytasz [Warunki użytkowania](branding.md#usage-terms) za
 
 ![paleta](../.gitbook/assets/color_palette.jpg)
 
-![addon-banner](../.gitbook/assets/iazda_addon_banner.png)
+![addon-banner](../.gitbook/assets/ia\_addon\_banner.png)
 
 ## Warunki użycia
 
