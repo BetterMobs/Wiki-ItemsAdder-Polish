@@ -1,80 +1,79 @@
 ---
-description: How to install the plugin
+description: Jak zainstalować plugin
 ---
 
-# ⚙ First install
+# ⚙ Pierwsza instalacja
 
 {% hint style="info" %}
-**You should follow** this first configuration **on** your **test server** on your PC to **avoid mistakes** and too many restarts.. players don't like when the server is offline.\
-You can upload files to your real server after you finished here.
+**Powiniejeś śledzić** tą pierwszą konfigurację **na** twoim **serwerze testowym** na twoim PC, aby **unikać pomyłek** i dużej ilości restartów.. Gracze nie lubią kiedy serwer jest Offline.\
+Możesz wysłać po konfigurajci pliki na serwer
 {% endhint %}
 
 {% hint style="danger" %}
-**Make sure** that all of your plugins and server software are up to date!
+**Upewnij się** , że wszystkie pluginy na serwerze muszę być zaktualizowane!
 {% endhint %}
 
-## Step 1 - Installing the plugin and libraries
+## Step 1 - Instalacja pluginu i bibliotek
 
-* stop the server
-* install [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/)
-* install [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
-* put `ItemsAdder.jar` file inside your plugins folder
-* start the server
-* let ItemsAdder finish loading **everything**
+* zatrzymaj serwer
+* zainstaluj [**ProtocolLib**](https://ci.dmulloy2.net/job/ProtocolLib/lastSuccessfulBuild/)
+* zainstaluj [**LoneLibs**](https://www.spigotmc.org/resources/lonelibs.75974/)
+* wsadź plik `ItemsAdder.jar` do środka twojego folderu pluginów "plugins"
+* uruchom serwer
+* pozwól ItemsAdderowi ustawić **wszystko**
 
-First step is done.
+Pierwszy krok jest zrobiony.
 
 {% hint style="warning" %}
-Now you must complete **step 2** to configure the resourcepack (don't worry it's not very hard).\
-<mark style="color:red;">**DO NOT SKIP!**</mark>
+Teraz musisz ukończyć **krok drugi** ,aby skonfigurować paczkę zasobów (spokojnie, nie jest to bardzo trudne).\
+<mark style="color:red;">**NIE POMIJAJ!**</mark>
 {% endhint %}
 
-## Step 2 - Resourcepack first installation
+## Krok 2 - Pierwsza instalacja paczki zasobów
 
 {% hint style="warning" %}
-This step is important, the plugin <mark style="color:red;">**WILL NOT WORK**</mark> if you won't complete this step!
+Ten krok jest ważny, plugin <mark style="color:red;">**NIE BĘDZIE DZIAŁAŁ**</mark> jeśli nie skończysz tego kroku!
 {% endhint %}
 
-Before using the plugin you have to decide the resourcepack hosting method. \
-Click down here to decide an hosting method for the resourcepack (best method: `self-host`).
+Przed użyciem pluginu, zadecyduj jaki sposób hostingu paczki zasobów wybierzesz. \
+Kliknij tutaj, aby zadecydować o metodzie hostowania paczki zasobów (najlepsza metoda: `self-host`).
 
 {% content-ref url="plugin-usage/resourcepack-hosting/" %}
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## Step 3 - (optional) Add official ItemsAdder custom content
+## Step 3 - (optional) Dodaj oficjalne zasoby ItemsAddera
 
 ![](.gitbook/assets/items\_showcase\_gif.apng)
 
-**ItemsAdder** comes with a lot of custom content already created for you.\
-It's not automatically included in the downloaded plugin because some people might not want every item/feature automatically added into their server.
-
-### Default pack (optional)
+**ItemsAdder** jest w zestawie z fajnymi zasobami gotowymi dla ciebie.\
+Nie jest to automatycznie zawarte w pobranej wtyczce, ponieważ niektórzy ludzie mogą nie chcieć, aby każdy przedmiot / funkcja została automatycznie dodana do ich serwera.
+### Standardowa paczka (opcjonalne)
 
 ![](<.gitbook/assets/image (47).png>)
 
-* Download the latest version of the **DefaultPack**: [DOWNLOAD](https://github.com/ItemsAdder/DefaultPack/releases/latest)
-* Extract the content into the `ItemAdder` folder and overwrite the files if asked
-* Run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+* Pobierz najnowszą wersję standardowej paczki: **DefaultPack**: [POBIERZ](https://github.com/ItemsAdder/DefaultPack/releases/latest)
+* Wypakuj zawartość do folderu `ItemAdder` i nadpisz każdy plik, jeśli będziesz o to zapytany
+* Uruchom komendę `/iazip` (i podożaj za poradami odnośnie swojej [metody hostingu](plugin-usage/resourcepack-hosting/) jeżeli nie korzystasz z **self-host**).
 
-### Other pack (optional)
+### Inne paczki (opcjonalne)
 
 ![](<.gitbook/assets/image (50).png>)
 
-* if you want you can download the **OtherPacks** which adds even more content: [DOWNLOAD](https://github.com/ItemsAdder/OtherPacks/releases/latest)
-* extract the content into the `ItemAdder` folder and overwrite the files if asked
-* run the `/iazip` command (and follow your [hosting method](plugin-usage/resourcepack-hosting/) if you're not using **self-host**).
+* jeśli chcesz możesz pobrać inną paczkę: **OtherPack** które dodają jeszcze więcej rzeczy: [POBIERZ](https://github.com/ItemsAdder/OtherPacks/releases/latest)
+* Wypakuj zawartość do folderu `ItemAdder` i nadpisz każdy plik, jeśli będziesz o to zapytany
+* Uruchom komendę `/iazip` (i podożaj za poradami odnośnie swojej [metody hostingu](plugin-usage/resourcepack-hosting/) jeżeli nie korzystasz z **self-host**).
 
-If you're on 1.17 or lower you have to change the ores generation:
+Jeżeli korzystasz z wersji 1.17 lub niższej musisz to zmienić w generowaniu ród:
 
-* Open these files and set `enabled: true`.
+* Otwórz te pliki i ustaw `enabled: true`.
   * `contents\iaalchemy\configs\worlds_populators_old.yml`
   * `contents\iasurvival\ores\configs\worlds_populators_old.yml`
-* Open these files and set `enabled: false`.
+* Otwórz te pliki i ustaw `enabled: false`.
   * `contents\iaalchemy\configs\worlds_populators_1_18.yml`
   * `contents\iasurvival\ores\configs\worlds_populators_1_18.yml`
 
-### Removing default items (optional)
+### Usuwanie standardowych rzeczy (opcjonalne)
 
 {% content-ref url="faq/removing-default-stuff/" %}
 [removing-default-stuff](faq/removing-default-stuff/)
