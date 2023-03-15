@@ -1,23 +1,23 @@
 # Space
 
-## [Download here](https://www.spigotmc.org/resources/space.59572/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/space.59572/)
 
-## Adding compatibility
+## Dodanie zgodności
 
 {% hint style="warning" %}
-Update ItemsAdder to 3.3.0+
-{% endhint %}
+Zaktualizuj ItemsAdder do wersji 3.3.0+.
+{endhint %}
 
-Create a new folder: `ItemsAdder/contents/space/resourcepack/`
+Utwórz nowy folder: `ItemsAdder/contents/space/resourcepack/`.
 
-Extract the Space plugin resourcepack in the previous folder so that you have something like that:\
-`ItemsAdder/contents/space/resourcepack/assets/...`
+Wyodrębnij resourcepack pluginu Space w poprzednim folderze, tak abyś miał coś takiego:}
+`ItemsAdder/contents/space/resourcepack/assets/...`.
 
-Then run `/iazip` and follow the [hosting tutorial](../../plugin-usage/resourcepack-hosting/).
+Następnie uruchom `/iazip` i postępuj zgodnie z [tutorialem hostingu](../../plugin-usage/resourcepack-hosting/).
 
-## Known issues
+## Znane problemy
 
-### Particles problems
+### Problemy z cząsteczkami
 
-After you've merged the resourcepacks you will notice double particles from blocks.\
-This is normal and I can't fix it for now, it's because of how Space plugin creases blocks models (in the wrong way).
+Po połączeniu pakietów zasobów zauważysz podwójne cząsteczki z blocks.\N
+Jest to normalne i nie mogę tego na razie naprawić, jest to spowodowane tym jak plugin Space gniecie modele bloków (w niewłaściwy sposób).
