@@ -42,7 +42,7 @@ Kliknij tutaj, aby zadecydować o metodzie hostowania paczki zasobów (najlepsza
 [resourcepack-hosting](plugin-usage/resourcepack-hosting/)
 {% endcontent-ref %}
 
-## Step 3 - (optional) Dodaj oficjalne zasoby ItemsAddera
+## Step 3 - (opcjonalne) Dodaj oficjalne zasoby ItemsAddera
 
 ![](.gitbook/assets/items\_showcase\_gif.apng)
 
