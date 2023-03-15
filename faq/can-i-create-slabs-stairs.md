@@ -1,27 +1,25 @@
-# Can I create slabs, stairs, tridents, armors...
+# Czy mogę tworzyć płyty, schody, trójzęby, zbroje...
 
-### Placeable
+### Umieszczalne
 
 {% hint style="warning" %}
- You can't create solid custom slabs, stairs and solid placeable items other than blocks. Problem is that Minecraft would show them as transparent blocks because of this bug: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) You'll be able to create custom shaped blocks when Mojang will fix this bug \(adding a special tag that can be turned on or off, now it's always on. **"Opaque"**\).
+ Nie można tworzyć solidnych niestandardowych płyt, schodów i solidnych przedmiotów placeable innych niż bloki. Problemem jest to, że Minecraft pokazywałby je jako przezroczyste bloki z powodu tego błędu: [https://bugs.mojang.com/browse/MC-54254](https://bugs.mojang.com/browse/MC-54254) Będziesz mógł tworzyć niestandardowe bloki w kształcie, kiedy Mojang naprawi ten błąd \(dodanie specjalnego tagu, który można włączyć lub wyłączyć, teraz jest zawsze włączony. **"Opaque "**).
 
-Another reason is that I can't change hitbox of blocks.. sadly another Minecraft limitation.
+Kolejnym powodem jest to, że nie mogę zmienić hitboxa bloków... niestety kolejne ograniczenie Minecrafta.
 {% endhint %}
 
-### Tridents
+### Trójzęby
 
 {% hint style="warning" %}
-You can't create custom model for thrown tridents as it's a Minecraft bug I can't fix: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
+Nie można stworzyć niestandardowego modelu dla rzucanych trójzębów, ponieważ jest to błąd Minecrafta, którego nie mogę naprawić: [https://bugs.mojang.com/browse/MC-155286](https://bugs.mojang.com/browse/MC-155286)
 {% endhint %}
 
-### Armors
+### Zbroje
 
 {% hint style="warning" %}
-Minecraft doesn't allow you in any way to add custom textures / custom 3D models to armors.  
-You can make them colored but you cannot change the texture.
+Minecraft nie pozwala w żaden sposób dodać niestandardowych tekstur / niestandardowych modeli 3D do pancerzy.  
+Możesz zrobić je kolorowe, ale nie możesz zmienić tekstury.
 {% endhint %}
 
 {% page-ref page="../plugin-usage/adding-content/creating-a-custom-item/armor.md" %}
-
-
 
