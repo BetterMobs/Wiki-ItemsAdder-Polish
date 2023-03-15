@@ -1,8 +1,8 @@
 # ShopGUI+
 
-## [Download here](https://www.spigotmc.org/resources/shopgui-1-7-1-17.6515)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/shopgui-1-7-1-17.6515)
 
-## How to use ItemsAdder items inside the plugin
+## Jak używać elementów ItemsAdder wewnątrz wtyczki
 
 {% embed url="https://docs.brcdev.net/#/shopgui/shops-items-setup?id=itemsadder" %}
 
