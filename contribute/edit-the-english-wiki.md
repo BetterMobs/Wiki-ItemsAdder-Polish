@@ -1,55 +1,55 @@
-# Edit the English wiki
+# Edytuj angielską wiki
 
-## How to edit this wiki?
+## Jak edytować tę wiki?
 
-### Setting up your repository
+### Konfiguracja repozytorium
 
-Open the [**Github** repository](https://github.com/LoneDev6/Wiki-ItemsAdder) of this wiki, press on **`Fork`**.&#x20;
+Otwórz [**Github** repozytorium](https://github.com/LoneDev6/Wiki-ItemsAdder) tej wiki, naciśnij na **`Fork`**.&#x20;
 
 ![](<../.gitbook/assets/image (99) (1).png>)
 
-Make sure you're on the `master` branch.
+Upewnij się, że jesteś na gałęzi `master`.
 
 ![](<../.gitbook/assets/image (60) (1) (1).png>)
 
-Select a file you want to edit and press the **pen** button
+Wybierz plik, który chcesz edytować i naciśnij przycisk **pen**
 
 ![](<../.gitbook/assets/image (69).png>)
 
-Edit the file and then press <mark style="color:green;">**Commit changes**</mark>
+Edytuj plik, a następnie naciśnij <mark style="color:green;">**Commit changes**</mark>
 
 ![](<../.gitbook/assets/image (67).png>)
 
 {% hint style="warning" %}
-## Important notes
+## Ważne uwagi.
 
-* Do not remove the `#` special characters, edit only the next text, these are titles.
-* Do not remove or edit special texts inside `{ }`, for example `{% hint style="info" %}`, these are used to create the hint message boxes.
-* Do not remove `*` character, these are used to create lists
-* Do not remove emojis
-* Do not edit or remove the `--- description: ---` text on top of some pages, edit only the inner text.
-* Do not remove `\` on some lines end
+* Nie usuwaj znaków specjalnych `#`, edytuj tylko następny tekst, są to tytuły.
+* Nie usuwaj ani nie edytuj tekstów specjalnych wewnątrz `{ }`, na przykład `{% hint style="info" %}`, są one używane do tworzenia pól komunikatów podpowiedzi.
+* Nie usuwaj znaków `*`, są one używane do tworzenia list.
+* Nie usuwaj emojis
+* Nie edytuj ani nie usuwaj tekstu `--- description: ---` na górze niektórych stron, edytuj tylko wewnętrzny tekst.
+* Nie usuwaj znaku `\` w niektórych liniach koniec
 {% endhint %}
 
-### Example of what you _<mark style="color:red;">must not</mark>_ edit
+### Przykład tego, co _<mark style="color:red;">must not</mark>_ edytować
 
 ![](<../.gitbook/assets/image (80).png>)
 
-### Last step
+### Ostatni krok
 
-Contact **LoneDev** in order to get your changes reviewed and added to the wiki.\
-Feel free to ping **LoneDev** on the Discord or to open a support ticket in the community channel.
+Skontaktuj się z **LoneDev**, aby Twoje zmiany zostały zweryfikowane i dodane do wiki.
+Zapraszamy do pingowania **LoneDev** na Discordzie lub do otwarcia biletu wsparcia na kanale społeczności.
 
 {% hint style="info" %}
-Would be good if you update your repository each time the main repository (the one in English) gets edited, to reflect changes.
+Byłoby dobrze, gdybyś aktualizował swoje repozytorium za każdym razem, gdy główne repozytorium (to w języku angielskim) zostanie edytowane, aby odzwierciedlić zmiany.
 
-To sync it you have to press **Fetch Upstream**.\
+Aby je zsynchronizować, musisz nacisnąć **Fetch Upstream**.\N
 [https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork)
 
 ![](<../.gitbook/assets/image (88).png>)
 
 \
-You can keep track of changes in the Discord notification channel.
+Możesz śledzić zmiany w kanale powiadomień Discord.
 
 ![](<../.gitbook/assets/image (73).png>)
 {% endhint %}
