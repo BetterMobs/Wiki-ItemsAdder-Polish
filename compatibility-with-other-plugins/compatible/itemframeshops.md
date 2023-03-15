@@ -1,9 +1,8 @@
 # ItemFrameShops
 
-## [Download here](https://www.spigotmc.org/resources/itemframeshops.4667/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/itemframeshops.4667/)
 
 {% hint style="warning" %}
-**Limitation**  
-You do have to set prices for ItemsAdder items per shop as they can't be loaded from defaults.
+**Ograniczenie**  
+Musisz ustawić ceny dla elementów ItemsAdder na sklep, ponieważ nie można ich załadować z wartości domyślnych.
 {% endhint %}
-
