@@ -8,6 +8,6 @@ Jeśli posiadasz **ItemsAdder**, możesz ubiegać się o członkostwo w zespole 
 Zapraszam do składania wniosków, ale tylko jeśli posiadasz ItemsAdder (kupiony w Spigot, BuiltByBit lub Polymart).\
 Zatwierdzę każdą wydaną prośbę, jeśli spełni ona potrzeby rozwojowe.
 
-Dzięki wszystkim :smile: Pomoże mi to uczynić wtyczkę bardziej stabilną i lepszą.
+Dzięki wszystkim :smile: Pomoże mi to uczynić plugin bardziej stabilną i lepszą.
 
 {% embed url="https://forms.gle/CALtSZJ5v3mtNGPa9" %}
