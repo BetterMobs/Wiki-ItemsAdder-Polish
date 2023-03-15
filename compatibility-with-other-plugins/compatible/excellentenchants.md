@@ -1,19 +1,19 @@
 # ExcellentEnchants
 
-[Download here](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)
+[Pobierz tutaj](https://www.spigotmc.org/resources/goldenenchants-%E2%80%A2-more-vanilla-like-enchantments-1-14-1-16.61693/)
 
-(previously known as **GoldenEnchants**)
+(wcześniej znany jako **GoldenEnchants**)
 
-## How to use enchants
+## Jak używać enchantów
 
-This is an example configuration for an ItemsAdder custom item enchant.
+To jest przykładowa konfiguracja dla ItemsAdder custom item enchant.
 
 {% hint style="warning" %}
-Warning: enchants won't be shown on the item lore, it's a "bug" of the other plugin.
+Ostrzeżenie: enchanty nie będą wyświetlane w lore przedmiotu, jest to "bug" innego pluginu.
 
-<mark style="color:green;">The effect will still work!</mark>
+<mark style="color:green;">Efekt nadal będzie działał!</mark>.
 
-So you should write the lore on your own.
+Więc powinieneś napisać lore na własną rękę.
 {% endhint %}
 
 ```yaml
