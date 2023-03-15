@@ -1,36 +1,36 @@
 # ™ Branding
 
-## Download branding assets
+## Pobierz aktywa brandingowe
 
-The below ZIP file contains assets that you can use for your resource page or in your own assets related to ItemsAdder.\
-Make sure to read the [Usage terms](branding.md#usage-terms) before doing anything though.
+Poniższy plik ZIP zawiera zasoby, które możesz wykorzystać na swojej stronie zasobów lub w swoich własnych zasobach związanych z ItemsAdder.\N
+Upewnij się, że przeczytasz [Warunki użytkowania](branding.md#usage-terms) zanim cokolwiek zrobisz.
 
 {% file src="../.gitbook/assets/itemsadder_branding.zip" %}
 
-### Preview of the zip content
+### Podgląd zawartości zipa
 
 ![logos](<../.gitbook/assets/image (44) (1) (1) (1).png>)
 
-![palette](../.gitbook/assets/color\_palette.jpg)
+![paleta](../.gitbook/assets/color_palette.jpg)
 
-![addon-banner](../.gitbook/assets/ia\_addon\_banner.png)
+![addon-banner](../.gitbook/assets/iazda_addon_banner.png)
 
-## Usage terms
+## Warunki użycia
 
-You **can** use the assets...
+Możesz **używać aktywów...
 
-* on resource pages for Add-ons and/or plugins supporting ItemsAdder that you own.
-* in own images for your resources.
+* na stronach zasobów dla dodatków i/lub wtyczek wspierających ItemsAdder, których jesteś właścicielem.
+* we własnych obrazkach dla swoich zasobów.
 
-...under the following conditions:
+...pod następującymi warunkami:
 
-* You do not claim ownership over the assets. Original ownership stays with LoneDev, the developer of ItemsAdder.
-* You do not claim to have created those assets yourself.
-* You do not use the assets or part of them to create your own resource logo.
-* You do not redistribute the assets. This includes but isn't limited to modified versions of both the ZIP file and the actual files themself.
+* Nie rościsz sobie prawa własności do aktywów. Oryginalna własność pozostaje u LoneDev, twórcy ItemsAdder.
+* Nie twierdzisz, że sam stworzyłeś te aktywa.
+* Nie używasz aktywów lub ich części do tworzenia własnego logo zasobów.
+* Nie rozpowszechniasz aktywów. Obejmuje to, ale nie jest ograniczone do zmodyfikowanych wersji zarówno pliku ZIP i rzeczywistych plików siebie.
 * Give credit to the original branding page (This one) by linking to it.
-* The images may only be used to cite ItemsAdder.
+* Obrazy mogą być używane tylko do cytowania ItemsAdder.
 
 ## Credits
 
-* Thanks to Andre\_601 for the creation of the `ia_addon_banner` file
+* Podziękowania dla Andre ™_601 za stworzenie pliku `ia_addon_banner`.
