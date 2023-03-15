@@ -1,49 +1,49 @@
 # AnimatedScoreboard
 
-## [Download here](https://www.spigotmc.org/resources/animatedscoreboard.20848/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/animatedscoreboard.20848/)
 
 {% hint style="warning" %}
-Please refer to the plugin page tutorials before asking for help, I'm not the developer of this plugin and this info might become outdated at some point.
+Proszę zapoznać się z tutorialami na stronie wtyczki przed zwróceniem się o pomoc, nie jestem twórcą tej wtyczki i ta informacja może stać się nieaktualna w pewnym momencie.
 {% endhint %}
 
-## Font images in the scoreboard
+## Obrazy czcionek w tabeli wyników
 
-You can use [font\_images ](../../plugin-usage/adding-content/font-images/)(emojis and symbols) in the scoreboard if you install **PlaceholderAPI**.
+Możesz użyć [font\_images ](../../plugin-usage/adding-content/font-images/)(emotki i symbole) w tabeli wyników, jeśli zainstalujesz **PlaceholderAPI**.
 
-### Example
+### Przykład
 
-`%img_smile%` will show like that:
+`%img_smile%` będzie wyglądał tak:
 
 ![](../../.gitbook/assets/animatedscoreboard\_1.png)
 
-## Hide the scoreboard background
+## Ukryj tło tablicy wyników
 
-With ItemsAdder you can hide the scoreboard background, just use this trick.
+Dzięki ItemsAdder możesz ukryć tło tablicy wyników, wystarczy użyć tej sztuczki.
 
-(works with every scoreboard plugin which supports PlaceholderAPI)
+(działa z każdą wtyczką tablicy wyników, która obsługuje PlaceholderAPI)
 
 {% tabs %}
-{% tab title="Before" %}
+{% tab title="Przed" %}
 ​
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-M28TcKgSDvuFN510qye%2F-MhOfUmIRJYMhFZM2AQy%2F-MhOgJ6DpHjDR8dc9NYc%2Fimmagine.png?alt=media&#x26;token=1a5efcc3-27a5-49b4-80c9-c98ebcb197d2" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="After" %}
+{% tab title="Po" %}
 ​\\
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-legacy-files/o/assets%2F-M28TcKgSDvuFN510qye%2F-MhOfUmIRJYMhFZM2AQy%2F-MhOg9VxfKvE2ZGZ3QE6%2Fimmagine.png?alt=media&#x26;token=c4ee2fd0-2aa9-46e2-a8dd-0025dcc64f7e" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
-### How to hide the background
+### Jak ukryć tło
 
-You just have to add `%img_offset_-500%` in front of <mark style="color:yellow;">**each line**</mark> of your scoreboard configuration, <mark style="color:yellow;">even in empty lines!</mark>
+Wystarczy dodać `%img_offset_-500%` przed <mark style="color:yellow;">**każdą linią**</mark> swojej konfiguracji tablicy wyników, <mark style="color:yellow;">nawet w pustych liniach!</mark>.
 
 {% hint style="danger" %}
-#### Warning!
+#### Ostrzeżenie!
 
-Not compatible with special attributes of **AnimatedScoreboard** like these and similar!
+Niekompatybilne ze specjalnymi atrybutami **AnimatedScoreboard** jak te i podobne!
 
 `<health full=&4 half=&c empty=&f update=5>❤</health>`
 
@@ -51,17 +51,17 @@ Not compatible with special attributes of **AnimatedScoreboard** like these and 
 
 `<stay ticks=100>&lAnimated Scoreboard</stay>`
 
-<mark style="color:red;">Please do not ask me for support</mark>, I cannot fix this, I'm not the author of **AnimatedScoreboard**.
+<mark style="color:red;">Proszę nie prosić mnie o wsparcie</mark>, nie mogę tego naprawić, nie jestem autorem **AnimatedScoreboard**.
 
-If you want to use `<stay>` you have to put the `%img_offset_-500%` after the first `>`.\
-Example:
+Jeśli chcesz użyć `<stay>` musisz umieścić `%img_offset_-500%` po pierwszym `>`.‖.
+Przykład:
 
 `<stay ticks=100>%img_offset_-500%&lAnimated Scoreboard</stay>`
 {% endhint %}
 
 <details>
 
-<summary>&#x3C;--- Click here to get the example YML configuration file</summary>
+<summary>&#x3C;--- Kliknij tutaj, aby uzyskać przykładowy plik konfiguracyjny YML</summary>
 
 {% code title="defaultscoreboard.yml" %}
 ```yaml
