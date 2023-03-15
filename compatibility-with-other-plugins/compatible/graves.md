@@ -1,17 +1,17 @@
 # Graves
 
-## [Download here](https://www.spigotmc.org/resources/graves.74208/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/graves.74208/)
 
-## How to add compatibility?
+## Jak dodać kompatybilność?
 
-Enable the compatibility
+Włącz kompatybilność
 
 ```yaml
 itemsadder: # https://www.spigotmc.org/resources/itemsadder.73355/
-  enabled: true # Should ItemsAdder integration be enabled.
+  enabled: true # Czy integracja ItemsAdder powinna być włączona.
 ```
 
-Edit the default option. You can also customize the items if needed (make sure they are of the correct type, use furniture in furniture and use block in the block property).
+Edytuj domyślną opcję. Możesz również dostosować przedmioty w razie potrzeby (upewnij się, że są one właściwego typu, użyj mebli w meblach i użyj bloku we właściwości bloku).
 
 ```yaml
   ##############
