@@ -1,49 +1,49 @@
 # Mythicmobs
 
-### [Download here](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
+### [Pobierz tutaj](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)
 
-## Using an ItemsAdder items in MythicMobs&#x20;
+## Używanie elementów ItemsAdder w MythicMobs&#x20;
 
 {% hint style="warning" %}
-Update to **ItemsAdder 3.0.4** or greater and **MythicMobs 5.0.1** or greater
-{% endhint %}
+Zaktualizuj do wersji **ItemsAdder 3.0.4** lub wyższej i **MythicMobs 5.0.1** lub wyższej.
+{endhint %}
 
-### Drops
+### Spadki
 
-Example: drop a custom item by 30% chance and 1 to 5 amount.
+Przykład: drop niestandardowego przedmiotu o 30% szansie i ilości od 1 do 5.
 
 ```yaml
 ninja_skeleton:
-  Type: ZOMBIE
-  Display: '&aNinja Skeleton'
-  Health: 10
-  Damage: 2
-  Drops:
+  Typ: ZOMBIE
+  Wyświetlacz: '&aNinja Skeleton'
+  Zdrowie: 10
+  Obrażenia: 2
+  Dropsy:
     - myitems:special_sword 1-5 30%
-  Options:
+  Opcje:
     MovementSpeed: 0
     Silent: true
-  Skills:
+  Umiejętności:
   - customentity{model=custom:ninja_skeleton} @self ~onSpawn
   - customentity{play=attack} @self ~onAttack
   - customentity{walk=b_walk} @self ~onAttack
 ```
 
-### Equipment
+### Sprzęt
 
 ```yaml
 SkeletalKnight:
-  Type: WITHER_SKELETON
-  Display: '&aSkeletal Knight'
-  Health: 40
-  Damage: 8
-  Equipment:
-  - myitems:special_helmet HEAD
+  Typ: WITHER_SKELETON
+  Wyświetleń: '&aSkeletal Knight'
+  Zdrowie: 40
+  Obrażenia: 8
+  Wyposażenie:
+  - myitems:special_hełm HEŁM
   - myitems:special_chestplate CHEST
-  - myitems:special_leggings LEGS
-  - myitems:special_boots FEET
-  - myitems:special_sword HAND
-  - myitems:special_shield OFFHAND
+  - myitems:special_legginsy NOGI
+  - mojeitems:special_boots FEET
+  - przedmioty:specjalne_miecz DŁOŃ
+  - mojaitems:special_shield OFFHAND
 ```
 
 ## Custom mobs models
