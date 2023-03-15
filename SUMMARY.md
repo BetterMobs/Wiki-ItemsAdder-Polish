@@ -130,7 +130,7 @@
   * [Przetłumacz to wiki](contribute/translate-this-wiki.md)
   * [Podejrzyj zmiany wiki](contribute/preview-wiki-changes.md)
 
-## Użycie pluginy
+## Użycie pluginu
 
 * [📄 Edytor plików](plugin-usage/files-editor.md)
 * [📔 Języki](plugin-usage/languages.md)
