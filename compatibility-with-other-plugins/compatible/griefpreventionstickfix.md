@@ -1,6 +1,6 @@
 # GriefPreventionStickFix
 
-## [Download Here](https://www.spigotmc.org/resources/griefpreventionstickfix.76015/)
+## [Pobierz tutaj](https://www.spigotmc.org/resources/griefpreventionstickfix.76015/)
 
  Wyłącza komunikat "No one has claimed this block" po kliknięciu prawym przyciskiem myszy na patyku, który ma metadane.
  Więc to będzie działać tylko na laskach, które są waniliowe, bez lore, bez własnej nazwy...\
